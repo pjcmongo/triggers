@@ -1,0 +1,16 @@
+{
+    "name": "archive_to_s3_every_min",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": true,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_archive_to_s3_every_min_1644771428"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "create_transaction_scheduled",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/5 * * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": true,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_create_transaction_scheduled_1650669418"
+            }
+        }
+    }
+}

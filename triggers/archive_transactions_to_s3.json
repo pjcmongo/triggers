@@ -1,0 +1,16 @@
+{
+    "name": "archive_transactions_to_s3",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/15 * * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": true,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_archive_transactions_to_s3_1650669442"
+            }
+        }
+    }
+}

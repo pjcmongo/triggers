@@ -1,0 +1,27 @@
+{
+    "name": "event_aggregation",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT"
+        ],
+        "database": "paul",
+        "collection": "events",
+        "service_name": "Cluster0",
+        "match": {},
+        "project": {},
+        "full_document": false,
+        "full_document_before_change": false,
+        "unordered": false,
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_event_aggregation_1693069530"
+            }
+        }
+    }
+}

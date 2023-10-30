@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Atlas_Triggers_create_transaction_scheduled_1650669418",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_archive_to_s3_every_min_1644771428",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_insert_event_scheduled_1692991253",
+        "private": false
+    },
+    {
+        "name": "setTimeStringAsDate",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "Atlas_Triggers_archive_transactions_to_s3_1650669442",
+        "private": false
+    },
+    {
+        "name": "hello",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "Atlas_Triggers_insert_trigger_1692991879",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_event_aggregation_1693069530",
+        "private": false
+    }
+]
