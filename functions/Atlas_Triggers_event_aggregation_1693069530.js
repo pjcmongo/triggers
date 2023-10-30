@@ -2,6 +2,8 @@ exports = async function(changeEvent) {
   // A Database Trigger will always call a function with a changeEvent.
   // Documentation on ChangeEvents: https://docs.mongodb.com/manual/reference/change-events/
 
+  // just adding comment here
+
   // This sample function will listen for events and replicate them to a collection in a different Database
 
   // Access the _id of the changed document:
